@@ -63,11 +63,13 @@ F19::Run https://facebook.com
 #c::
 send, ^c
 sleep 100
+return
 
 ; Pasting
 #v::
 send, ^v
 sleep 100
+return
 
 ; Cutting
 #x::^x
