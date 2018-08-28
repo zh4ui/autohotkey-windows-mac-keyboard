@@ -57,11 +57,17 @@ F19::Run https://facebook.com
 ; Selecting
 #a::^a
 
+; https://autohotkey.com/board/topic/74182-solved-send-c-isnt-working/
+
 ; Copying
-#c::^c
+#c::
+send, ^c
+sleep 100
 
 ; Pasting
-#v::^v
+#v::
+send, ^v
+sleep 100
 
 ; Cutting
 #x::^x
