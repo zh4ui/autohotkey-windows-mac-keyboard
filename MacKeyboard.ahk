@@ -52,7 +52,10 @@ F19::Run https://facebook.com
 ; --------------------------------------------------------------
 
 ; Make Ctrl + S work with cmd (windows) key
-#s::^s
+#s::
+send, ^s
+sleep 100
+return
 
 ; Selecting
 #a::^a
